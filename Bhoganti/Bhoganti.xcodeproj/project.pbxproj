@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C22E7661A8DB9790020C6B5 /* CommentWithModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22E7651A8DB9790020C6B5 /* CommentWithModal.swift */; };
+		1C68FA4F1A81FDAE00555D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68FA4E1A81FDAE00555D15 /* AppDelegate.swift */; };
+		1C68FA511A81FDAE00555D15 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68FA501A81FDAE00555D15 /* FirstViewController.swift */; };
+		1C68FA531A81FDAE00555D15 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68FA521A81FDAE00555D15 /* SecondViewController.swift */; };
+		1C68FA561A81FDAE00555D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C68FA541A81FDAE00555D15 /* Main.storyboard */; };
+		1C68FA581A81FDAE00555D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C68FA571A81FDAE00555D15 /* Images.xcassets */; };
+		1C68FA671A81FDAE00555D15 /* BhogantiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68FA661A81FDAE00555D15 /* BhogantiTests.swift */; };
+		1C68FA711A821EF900555D15 /* TulonaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68FA701A821EF900555D15 /* TulonaCell.swift */; };
+		1C7574931A89FDA60076A6BA /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7574921A89FDA60076A6BA /* CommentCell.swift */; };
+		1C76803F1A822D5800F95EE7 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C76803E1A822D5800F95EE7 /* Launch Screen.xib */; };
+		1C9247171A8C606400A13E47 /* SingletonBrandName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9247161A8C606400A13E47 /* SingletonBrandName.swift */; };
+		1C92471C1A8CD41900A13E47 /* Lohit-Bengali.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C92471B1A8CD20100A13E47 /* Lohit-Bengali.ttf */; };
+		1CD7D00A1A88A54300EB0088 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7D0091A88A54300EB0088 /* ThirdViewController.swift */; };
+		1CDB3B171A8326F4009E2719 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B161A8326F4009E2719 /* TabBarController.swift */; };
+		1CDB3B1B1A834C03009E2719 /* registerDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B1A1A834C03009E2719 /* registerDevice.swift */; };
+		1CDB3B1D1A834CA2009E2719 /* GetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B1C1A834CA2009E2719 /* GetService.swift */; };
+		1CDB3B1F1A834CB1009E2719 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B1E1A834CB1009E2719 /* Settings.swift */; };
+		1CDB3B211A834D2B009E2719 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B201A834D2B009E2719 /* Util.swift */; };
+		1CDB3B231A834D89009E2719 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B221A834D89009E2719 /* DataSet.swift */; };
+		1CDB3B271A834DA2009E2719 /* DatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B261A834DA2009E2719 /* DatabaseModel.swift */; };
+		1CDB3B291A834DCC009E2719 /* DataSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B281A834DCC009E2719 /* DataSerialization.swift */; };
+		1CDB3B2B1A834E8B009E2719 /* BrandAliaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B2A1A834E8B009E2719 /* BrandAliaseItem.swift */; };
+		1CDB3B2D1A834E91009E2719 /* BrandListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B2C1A834E91009E2719 /* BrandListItem.swift */; };
+		1CDB3B2F1A835E28009E2719 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B2E1A835E28009E2719 /* DataManager.swift */; };
+		1CDB3B311A836060009E2719 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B301A836060009E2719 /* PostService.swift */; };
+		1CDB3B341A8360F7009E2719 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDB3B331A8360F7009E2719 /* libsqlite3.0.dylib */; };
+		1CDB3B411A836127009E2719 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B381A836127009E2719 /* FMDatabase.m */; };
+		1CDB3B421A836127009E2719 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B3A1A836127009E2719 /* FMResultSet.m */; };
+		1CDB3B431A836127009E2719 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B3C1A836127009E2719 /* FMDatabaseQueue.m */; };
+		1CDB3B441A836127009E2719 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B3E1A836127009E2719 /* FMDatabaseAdditions.m */; };
+		1CDB3B451A836127009E2719 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B401A836127009E2719 /* FMDatabasePool.m */; };
+		1CDB3B471A836166009E2719 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B461A836166009E2719 /* Brand.swift */; };
+		1CDB3B491A836193009E2719 /* ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B481A836193009E2719 /* ShowAlert.swift */; };
+		1CDB3B4B1A8361BA009E2719 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B4A1A8361BA009E2719 /* Comments.swift */; };
+		1CDB3B4F1A836D9C009E2719 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB3B4E1A836D9C009E2719 /* InternetConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C68FA611A81FDAE00555D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C68FA411A81FDAE00555D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C68FA481A81FDAE00555D15;
+			remoteInfo = Bhoganti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C22E7651A8DB9790020C6B5 /* CommentWithModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentWithModal.swift; sourceTree = "<group>"; };
+		1C68FA491A81FDAE00555D15 /* Bhoganti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bhoganti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C68FA4D1A81FDAE00555D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C68FA4E1A81FDAE00555D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C68FA501A81FDAE00555D15 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1C68FA521A81FDAE00555D15 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1C68FA551A81FDAE00555D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C68FA571A81FDAE00555D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C68FA601A81FDAE00555D15 /* BhogantiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhogantiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C68FA651A81FDAE00555D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C68FA661A81FDAE00555D15 /* BhogantiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhogantiTests.swift; sourceTree = "<group>"; };
+		1C68FA701A821EF900555D15 /* TulonaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TulonaCell.swift; sourceTree = "<group>"; };
+		1C7574921A89FDA60076A6BA /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		1C76803E1A822D5800F95EE7 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		1C9247161A8C606400A13E47 /* SingletonBrandName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonBrandName.swift; sourceTree = "<group>"; };
+		1C92471B1A8CD20100A13E47 /* Lohit-Bengali.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lohit-Bengali.ttf"; sourceTree = "<group>"; };
+		1CD7D0091A88A54300EB0088 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1CDB3B161A8326F4009E2719 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1CDB3B1A1A834C03009E2719 /* registerDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerDevice.swift; sourceTree = "<group>"; };
+		1CDB3B1C1A834CA2009E2719 /* GetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetService.swift; sourceTree = "<group>"; };
+		1CDB3B1E1A834CB1009E2719 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1CDB3B201A834D2B009E2719 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		1CDB3B221A834D89009E2719 /* DataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		1CDB3B261A834DA2009E2719 /* DatabaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseModel.swift; sourceTree = "<group>"; };
+		1CDB3B281A834DCC009E2719 /* DataSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSerialization.swift; sourceTree = "<group>"; };
+		1CDB3B2A1A834E8B009E2719 /* BrandAliaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandAliaseItem.swift; sourceTree = "<group>"; };
+		1CDB3B2C1A834E91009E2719 /* BrandListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandListItem.swift; sourceTree = "<group>"; };
+		1CDB3B2E1A835E28009E2719 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1CDB3B301A836060009E2719 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		1CDB3B331A8360F7009E2719 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1CDB3B351A836126009E2719 /* Bhoganti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bhoganti-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CDB3B361A836127009E2719 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1CDB3B371A836127009E2719 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1CDB3B381A836127009E2719 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1CDB3B391A836127009E2719 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1CDB3B3A1A836127009E2719 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1CDB3B3B1A836127009E2719 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1CDB3B3C1A836127009E2719 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1CDB3B3D1A836127009E2719 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1CDB3B3E1A836127009E2719 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1CDB3B3F1A836127009E2719 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1CDB3B401A836127009E2719 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1CDB3B461A836166009E2719 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		1CDB3B481A836193009E2719 /* ShowAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAlert.swift; sourceTree = "<group>"; };
+		1CDB3B4A1A8361BA009E2719 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		1CDB3B4E1A836D9C009E2719 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C68FA461A81FDAE00555D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDB3B341A8360F7009E2719 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C68FA5D1A81FDAE00555D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C68FA401A81FDAE00555D15 = {
+			isa = PBXGroup;
+			children = (
+				1C68FA4B1A81FDAE00555D15 /* Bhoganti */,
+				1C68FA631A81FDAE00555D15 /* BhogantiTests */,
+				1C68FA4A1A81FDAE00555D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C68FA4A1A81FDAE00555D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C68FA491A81FDAE00555D15 /* Bhoganti.app */,
+				1C68FA601A81FDAE00555D15 /* BhogantiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C68FA4B1A81FDAE00555D15 /* Bhoganti */ = {
+			isa = PBXGroup;
+			children = (
+				1C68FA4E1A81FDAE00555D15 /* AppDelegate.swift */,
+				1CDB3B461A836166009E2719 /* Brand.swift */,
+				1CDB3B2A1A834E8B009E2719 /* BrandAliaseItem.swift */,
+				1CDB3B2C1A834E91009E2719 /* BrandListItem.swift */,
+				1CDB3B4A1A8361BA009E2719 /* Comments.swift */,
+				1C7574921A89FDA60076A6BA /* CommentCell.swift */,
+				1C22E7651A8DB9790020C6B5 /* CommentWithModal.swift */,
+				1CDB3B221A834D89009E2719 /* DataSet.swift */,
+				1CDB3B261A834DA2009E2719 /* DatabaseModel.swift */,
+				1CDB3B2E1A835E28009E2719 /* DataManager.swift */,
+				1CDB3B281A834DCC009E2719 /* DataSerialization.swift */,
+				1C68FA501A81FDAE00555D15 /* FirstViewController.swift */,
+				1CDB3B1C1A834CA2009E2719 /* GetService.swift */,
+				1CDB3B4E1A836D9C009E2719 /* InternetConnection.swift */,
+				1CDB3B301A836060009E2719 /* PostService.swift */,
+				1CDB3B1A1A834C03009E2719 /* registerDevice.swift */,
+				1C68FA521A81FDAE00555D15 /* SecondViewController.swift */,
+				1CDB3B1E1A834CB1009E2719 /* Settings.swift */,
+				1CDB3B481A836193009E2719 /* ShowAlert.swift */,
+				1C9247161A8C606400A13E47 /* SingletonBrandName.swift */,
+				1CDB3B161A8326F4009E2719 /* TabBarController.swift */,
+				1CD7D0091A88A54300EB0088 /* ThirdViewController.swift */,
+				1C68FA701A821EF900555D15 /* TulonaCell.swift */,
+				1CDB3B201A834D2B009E2719 /* Util.swift */,
+				1C68FA541A81FDAE00555D15 /* Main.storyboard */,
+				1C68FA571A81FDAE00555D15 /* Images.xcassets */,
+				1C76803E1A822D5800F95EE7 /* Launch Screen.xib */,
+				1C68FA4C1A81FDAE00555D15 /* Supporting Files */,
+			);
+			path = Bhoganti;
+			sourceTree = "<group>";
+		};
+		1C68FA4C1A81FDAE00555D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CDB3B331A8360F7009E2719 /* libsqlite3.0.dylib */,
+				1C92471B1A8CD20100A13E47 /* Lohit-Bengali.ttf */,
+				1CDB3B321A836099009E2719 /* FMDB */,
+				1C68FA4D1A81FDAE00555D15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C68FA631A81FDAE00555D15 /* BhogantiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C68FA661A81FDAE00555D15 /* BhogantiTests.swift */,
+				1C68FA641A81FDAE00555D15 /* Supporting Files */,
+			);
+			path = BhogantiTests;
+			sourceTree = "<group>";
+		};
+		1C68FA641A81FDAE00555D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C68FA651A81FDAE00555D15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CDB3B321A836099009E2719 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1CDB3B361A836127009E2719 /* FMDB.h */,
+				1CDB3B371A836127009E2719 /* FMDatabase.h */,
+				1CDB3B381A836127009E2719 /* FMDatabase.m */,
+				1CDB3B391A836127009E2719 /* FMResultSet.h */,
+				1CDB3B3A1A836127009E2719 /* FMResultSet.m */,
+				1CDB3B3B1A836127009E2719 /* FMDatabaseQueue.h */,
+				1CDB3B3C1A836127009E2719 /* FMDatabaseQueue.m */,
+				1CDB3B3D1A836127009E2719 /* FMDatabaseAdditions.h */,
+				1CDB3B3E1A836127009E2719 /* FMDatabaseAdditions.m */,
+				1CDB3B3F1A836127009E2719 /* FMDatabasePool.h */,
+				1CDB3B401A836127009E2719 /* FMDatabasePool.m */,
+				1CDB3B351A836126009E2719 /* Bhoganti-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C68FA481A81FDAE00555D15 /* Bhoganti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C68FA6A1A81FDAE00555D15 /* Build configuration list for PBXNativeTarget "Bhoganti" */;
+			buildPhases = (
+				1C68FA451A81FDAE00555D15 /* Sources */,
+				1C68FA461A81FDAE00555D15 /* Frameworks */,
+				1C68FA471A81FDAE00555D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bhoganti;
+			productName = Bhoganti;
+			productReference = 1C68FA491A81FDAE00555D15 /* Bhoganti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C68FA5F1A81FDAE00555D15 /* BhogantiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C68FA6D1A81FDAE00555D15 /* Build configuration list for PBXNativeTarget "BhogantiTests" */;
+			buildPhases = (
+				1C68FA5C1A81FDAE00555D15 /* Sources */,
+				1C68FA5D1A81FDAE00555D15 /* Frameworks */,
+				1C68FA5E1A81FDAE00555D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C68FA621A81FDAE00555D15 /* PBXTargetDependency */,
+			);
+			name = BhogantiTests;
+			productName = BhogantiTests;
+			productReference = 1C68FA601A81FDAE00555D15 /* BhogantiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C68FA411A81FDAE00555D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nascenia;
+				TargetAttributes = {
+					1C68FA481A81FDAE00555D15 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 79YLMQ62DM;
+					};
+					1C68FA5F1A81FDAE00555D15 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1C68FA481A81FDAE00555D15;
+					};
+				};
+			};
+			buildConfigurationList = 1C68FA441A81FDAE00555D15 /* Build configuration list for PBXProject "Bhoganti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C68FA401A81FDAE00555D15;
+			productRefGroup = 1C68FA4A1A81FDAE00555D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C68FA481A81FDAE00555D15 /* Bhoganti */,
+				1C68FA5F1A81FDAE00555D15 /* BhogantiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C68FA471A81FDAE00555D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C68FA561A81FDAE00555D15 /* Main.storyboard in Resources */,
+				1C68FA581A81FDAE00555D15 /* Images.xcassets in Resources */,
+				1C76803F1A822D5800F95EE7 /* Launch Screen.xib in Resources */,
+				1C92471C1A8CD41900A13E47 /* Lohit-Bengali.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C68FA5E1A81FDAE00555D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C68FA451A81FDAE00555D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDB3B271A834DA2009E2719 /* DatabaseModel.swift in Sources */,
+				1CDB3B2F1A835E28009E2719 /* DataManager.swift in Sources */,
+				1CDB3B2B1A834E8B009E2719 /* BrandAliaseItem.swift in Sources */,
+				1CDB3B491A836193009E2719 /* ShowAlert.swift in Sources */,
+				1CDB3B311A836060009E2719 /* PostService.swift in Sources */,
+				1CDB3B451A836127009E2719 /* FMDatabasePool.m in Sources */,
+				1CDB3B411A836127009E2719 /* FMDatabase.m in Sources */,
+				1C68FA531A81FDAE00555D15 /* SecondViewController.swift in Sources */,
+				1CDB3B421A836127009E2719 /* FMResultSet.m in Sources */,
+				1C68FA4F1A81FDAE00555D15 /* AppDelegate.swift in Sources */,
+				1CDB3B1B1A834C03009E2719 /* registerDevice.swift in Sources */,
+				1CDB3B431A836127009E2719 /* FMDatabaseQueue.m in Sources */,
+				1CD7D00A1A88A54300EB0088 /* ThirdViewController.swift in Sources */,
+				1C22E7661A8DB9790020C6B5 /* CommentWithModal.swift in Sources */,
+				1C68FA711A821EF900555D15 /* TulonaCell.swift in Sources */,
+				1C7574931A89FDA60076A6BA /* CommentCell.swift in Sources */,
+				1CDB3B1D1A834CA2009E2719 /* GetService.swift in Sources */,
+				1CDB3B471A836166009E2719 /* Brand.swift in Sources */,
+				1CDB3B231A834D89009E2719 /* DataSet.swift in Sources */,
+				1CDB3B2D1A834E91009E2719 /* BrandListItem.swift in Sources */,
+				1CDB3B291A834DCC009E2719 /* DataSerialization.swift in Sources */,
+				1CDB3B1F1A834CB1009E2719 /* Settings.swift in Sources */,
+				1CDB3B211A834D2B009E2719 /* Util.swift in Sources */,
+				1CDB3B171A8326F4009E2719 /* TabBarController.swift in Sources */,
+				1C68FA511A81FDAE00555D15 /* FirstViewController.swift in Sources */,
+				1CDB3B441A836127009E2719 /* FMDatabaseAdditions.m in Sources */,
+				1C9247171A8C606400A13E47 /* SingletonBrandName.swift in Sources */,
+				1CDB3B4F1A836D9C009E2719 /* InternetConnection.swift in Sources */,
+				1CDB3B4B1A8361BA009E2719 /* Comments.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C68FA5C1A81FDAE00555D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C68FA671A81FDAE00555D15 /* BhogantiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C68FA621A81FDAE00555D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C68FA481A81FDAE00555D15 /* Bhoganti */;
+			targetProxy = 1C68FA611A81FDAE00555D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C68FA541A81FDAE00555D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C68FA551A81FDAE00555D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C68FA681A81FDAE00555D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nascenia Limited (79YLMQ62DM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1C68FA691A81FDAE00555D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nascenia Limited (79YLMQ62DM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C68FA6B1A81FDAE00555D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Bhoganti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bhoganti/Bhoganti-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1C68FA6C1A81FDAE00555D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Bhoganti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bhoganti/Bhoganti-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C68FA6E1A81FDAE00555D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BhogantiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhoganti.app/Bhoganti";
+			};
+			name = Debug;
+		};
+		1C68FA6F1A81FDAE00555D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BhogantiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhoganti.app/Bhoganti";
+			};
+			name = Release;
+		};
+		1C9247181A8CABF700A13E47 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nascenia Limited (79YLMQ62DM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		1C9247191A8CABF700A13E47 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Bhoganti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bhoganti/Bhoganti-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		1C92471A1A8CABF700A13E47 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BhogantiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhoganti.app/Bhoganti";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C68FA441A81FDAE00555D15 /* Build configuration list for PBXProject "Bhoganti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C68FA681A81FDAE00555D15 /* Debug */,
+				1C68FA691A81FDAE00555D15 /* Release */,
+				1C9247181A8CABF700A13E47 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C68FA6A1A81FDAE00555D15 /* Build configuration list for PBXNativeTarget "Bhoganti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C68FA6B1A81FDAE00555D15 /* Debug */,
+				1C68FA6C1A81FDAE00555D15 /* Release */,
+				1C9247191A8CABF700A13E47 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C68FA6D1A81FDAE00555D15 /* Build configuration list for PBXNativeTarget "BhogantiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C68FA6E1A81FDAE00555D15 /* Debug */,
+				1C68FA6F1A81FDAE00555D15 /* Release */,
+				1C92471A1A8CABF700A13E47 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C68FA411A81FDAE00555D15 /* Project object */;
+}

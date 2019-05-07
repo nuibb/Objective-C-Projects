@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>planName</key>
+		<string>Micro</string>
+		<key>planArray</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>#BO Accounts</string>
+				<key>value</key>
+				<string>Up to 5</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>News &amp; Blogs</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Blank Forms</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Result Search</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Import BO</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Export BO</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>IPO Alert</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cost (Yearly)</string>
+				<key>value</key>
+				<string>About Tk. 120</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>planName</key>
+		<string>Basic</string>
+		<key>planArray</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>#BO Accounts</string>
+				<key>value</key>
+				<string>Up to 50</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>News &amp; Blogs</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Blank Forms</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Result Search</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Import BO</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Export BO</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>IPO Alert</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cost (Yearly)</string>
+				<key>value</key>
+				<string>About Tk. 350</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>planName</key>
+		<string>Regular</string>
+		<key>planArray</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>#BO Accounts</string>
+				<key>value</key>
+				<string>Up to 100</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>News &amp; Blogs</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Blank Forms</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Result Search</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Import BO</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Export BO</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>IPO Alert</string>
+				<key>value</key>
+				<string>Cross Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cost (Yearly)</string>
+				<key>value</key>
+				<string>About Tk. 600</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>planName</key>
+		<string>Premium</string>
+		<key>planArray</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>#BO Accounts</string>
+				<key>value</key>
+				<string>Up to 400</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>News &amp; Blogs</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Blank Forms</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Result Search</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Import BO</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Export BO</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>IPO Alert</string>
+				<key>value</key>
+				<string>Tick Image</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Cost (Yearly)</string>
+				<key>value</key>
+				<string>About Tk. 1200</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

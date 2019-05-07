@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegisterCell" rowHeight="92" id="UGJ-5A-2U5" customClass="RegistrationCustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UGJ-5A-2U5" id="pGS-PI-cqC">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b27-Vj-ull">
+                        <rect key="frame" x="242" y="46" width="138" height="38"/>
+                        <color key="backgroundColor" red="0.32549019607843138" green="0.31372549019607843" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="138" id="K4L-fU-fZk"/>
+                        </constraints>
+                        <state key="normal" title="Register">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnn-ug-kVw">
+                        <rect key="frame" x="336" y="8" width="44" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WK4-Wm-QCl">
+                        <rect key="frame" x="46" y="5" width="44" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jnn-ug-kVw" firstAttribute="baseline" secondItem="WK4-Wm-QCl" secondAttribute="firstBaseline" id="8n1-s4-50z"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="b27-Vj-ull" secondAttribute="bottom" constant="-1" id="B3d-38-uj8"/>
+                    <constraint firstItem="b27-Vj-ull" firstAttribute="trailing" secondItem="jnn-ug-kVw" secondAttribute="trailing" id="BP0-03-Ug6"/>
+                    <constraint firstItem="WK4-Wm-QCl" firstAttribute="firstBaseline" secondItem="jnn-ug-kVw" secondAttribute="firstBaseline" id="IGF-45-WaX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jnn-ug-kVw" secondAttribute="trailing" constant="6" id="Nxt-KS-Jxk"/>
+                    <constraint firstItem="WK4-Wm-QCl" firstAttribute="top" secondItem="pGS-PI-cqC" secondAttribute="topMargin" constant="-3" id="ZZJ-nh-McE"/>
+                    <constraint firstItem="jnn-ug-kVw" firstAttribute="top" secondItem="pGS-PI-cqC" secondAttribute="topMargin" id="aIG-km-kDH"/>
+                    <constraint firstItem="WK4-Wm-QCl" firstAttribute="baseline" secondItem="jnn-ug-kVw" secondAttribute="baseline" id="fUk-n4-vAn"/>
+                    <constraint firstItem="WK4-Wm-QCl" firstAttribute="leading" secondItem="pGS-PI-cqC" secondAttribute="leadingMargin" constant="38" id="hFD-gm-KV6"/>
+                    <constraint firstItem="b27-Vj-ull" firstAttribute="top" secondItem="jnn-ug-kVw" secondAttribute="bottom" constant="20" id="tk1-x3-MUC"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="IGF-45-WaX"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label1" destination="WK4-Wm-QCl" id="CoB-yb-KIu"/>
+                <outlet property="label2" destination="jnn-ug-kVw" id="mtQ-D5-U7q"/>
+                <outlet property="registerBtn" destination="b27-Vj-ull" id="QSw-x1-dxG"/>
+            </connections>
+            <point key="canvasLocation" x="472" y="355"/>
+        </tableViewCell>
+    </objects>
+</document>

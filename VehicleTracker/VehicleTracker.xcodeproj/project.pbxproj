@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6FAB5A9228175DE004C88BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB5A7228175DE004C88BF /* LaunchScreen.storyboard */; };
+		D6FAB5AC228175DE004C88BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB5AB228175DE004C88BF /* main.m */; };
+		D6FAB5B6228175DE004C88BF /* VehicleTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB5B5228175DE004C88BF /* VehicleTrackerTests.m */; };
+		D6FAB5C1228175DE004C88BF /* VehicleTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB5C0228175DE004C88BF /* VehicleTrackerUITests.m */; };
+		D6FAB5D0228175F8004C88BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB5CE228175F7004C88BF /* Main.storyboard */; };
+		D6FAB5D1228175F8004C88BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB5CF228175F7004C88BF /* Images.xcassets */; };
+		D6FAB61422817628004C88BF /* GetServices.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB61322817628004C88BF /* GetServices.m */; };
+		D6FAB61C22817641004C88BF /* DriverController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB61722817641004C88BF /* DriverController.m */; };
+		D6FAB61D22817641004C88BF /* PassengerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB61922817641004C88BF /* PassengerController.m */; };
+		D6FAB61E22817641004C88BF /* VehicleTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB61A22817641004C88BF /* VehicleTracker.m */; };
+		D6FAB6242281765D004C88BF /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB6202281765D004C88BF /* DataManager.m */; };
+		D6FAB6252281765D004C88BF /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB6222281765D004C88BF /* DataSet.m */; };
+		D6FAB62F22817672004C88BF /* LastFiftyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB62922817671004C88BF /* LastFiftyViewController.m */; };
+		D6FAB63022817672004C88BF /* BeaconController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB62A22817671004C88BF /* BeaconController.m */; };
+		D6FAB63122817672004C88BF /* BeaconItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB62D22817672004C88BF /* BeaconItemTableViewCell.m */; };
+		D6FAB63222817672004C88BF /* BeconItemAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB62E22817672004C88BF /* BeconItemAddViewController.m */; };
+		D6FAB63622817685004C88BF /* BeaconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB63522817685004C88BF /* BeaconItem.m */; };
+		D6FAB63E22817699004C88BF /* CheckInternetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB63822817699004C88BF /* CheckInternetConnection.m */; };
+		D6FAB63F22817699004C88BF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB63922817699004C88BF /* Settings.m */; };
+		D6FAB64022817699004C88BF /* ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB63D22817699004C88BF /* ShowAlert.m */; };
+		D6FAB646228176B2004C88BF /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB644228176B2004C88BF /* Annotation.m */; };
+		D6FAB647228176B2004C88BF /* ShipTrackerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB645228176B2004C88BF /* ShipTrackerController.m */; };
+		D6FAB64A228176D9004C88BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB649228176D9004C88BF /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FAB5B2228175DE004C88BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAB591228175DD004C88BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAB598228175DD004C88BF;
+			remoteInfo = VehicleTracker;
+		};
+		D6FAB5BD228175DE004C88BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAB591228175DD004C88BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAB598228175DD004C88BF;
+			remoteInfo = VehicleTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6FAB599228175DD004C88BF /* VehicleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB5A8228175DE004C88BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FAB5AA228175DE004C88BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FAB5AB228175DE004C88BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FAB5B1228175DE004C88BF /* VehicleTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB5B5228175DE004C88BF /* VehicleTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleTrackerTests.m; sourceTree = "<group>"; };
+		D6FAB5B7228175DE004C88BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FAB5BC228175DE004C88BF /* VehicleTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB5C0228175DE004C88BF /* VehicleTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleTrackerUITests.m; sourceTree = "<group>"; };
+		D6FAB5C2228175DE004C88BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FAB5CE228175F7004C88BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D6FAB5CF228175F7004C88BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6FAB61222817628004C88BF /* GetServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetServices.h; sourceTree = "<group>"; };
+		D6FAB61322817628004C88BF /* GetServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServices.m; sourceTree = "<group>"; };
+		D6FAB61622817641004C88BF /* VehicleTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleTracker.h; sourceTree = "<group>"; };
+		D6FAB61722817641004C88BF /* DriverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverController.m; sourceTree = "<group>"; };
+		D6FAB61822817641004C88BF /* DriverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverController.h; sourceTree = "<group>"; };
+		D6FAB61922817641004C88BF /* PassengerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerController.m; sourceTree = "<group>"; };
+		D6FAB61A22817641004C88BF /* VehicleTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleTracker.m; sourceTree = "<group>"; };
+		D6FAB61B22817641004C88BF /* PassengerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerController.h; sourceTree = "<group>"; };
+		D6FAB6202281765D004C88BF /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D6FAB6212281765D004C88BF /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D6FAB6222281765D004C88BF /* DataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSet.m; sourceTree = "<group>"; };
+		D6FAB6232281765D004C88BF /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		D6FAB62722817671004C88BF /* BeaconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconController.h; sourceTree = "<group>"; };
+		D6FAB62822817671004C88BF /* BeaconItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconItemTableViewCell.h; sourceTree = "<group>"; };
+		D6FAB62922817671004C88BF /* LastFiftyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastFiftyViewController.m; sourceTree = "<group>"; };
+		D6FAB62A22817671004C88BF /* BeaconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconController.m; sourceTree = "<group>"; };
+		D6FAB62B22817671004C88BF /* LastFiftyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastFiftyViewController.h; sourceTree = "<group>"; };
+		D6FAB62C22817671004C88BF /* BeconItemAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeconItemAddViewController.h; sourceTree = "<group>"; };
+		D6FAB62D22817672004C88BF /* BeaconItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconItemTableViewCell.m; sourceTree = "<group>"; };
+		D6FAB62E22817672004C88BF /* BeconItemAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeconItemAddViewController.m; sourceTree = "<group>"; };
+		D6FAB63422817685004C88BF /* BeaconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconItem.h; sourceTree = "<group>"; };
+		D6FAB63522817685004C88BF /* BeaconItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconItem.m; sourceTree = "<group>"; };
+		D6FAB63822817699004C88BF /* CheckInternetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInternetConnection.m; sourceTree = "<group>"; };
+		D6FAB63922817699004C88BF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		D6FAB63A22817699004C88BF /* CheckInternetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInternetConnection.h; sourceTree = "<group>"; };
+		D6FAB63B22817699004C88BF /* ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlert.h; sourceTree = "<group>"; };
+		D6FAB63C22817699004C88BF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		D6FAB63D22817699004C88BF /* ShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlert.m; sourceTree = "<group>"; };
+		D6FAB642228176B2004C88BF /* ShipTrackerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipTrackerController.h; sourceTree = "<group>"; };
+		D6FAB643228176B2004C88BF /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		D6FAB644228176B2004C88BF /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		D6FAB645228176B2004C88BF /* ShipTrackerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipTrackerController.m; sourceTree = "<group>"; };
+		D6FAB648228176D9004C88BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6FAB649228176D9004C88BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FAB596228175DD004C88BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5AE228175DE004C88BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5B9228175DE004C88BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6FAB590228175DD004C88BF = {
+			isa = PBXGroup;
+			children = (
+				D6FAB59B228175DD004C88BF /* VehicleTracker */,
+				D6FAB5B4228175DE004C88BF /* VehicleTrackerTests */,
+				D6FAB5BF228175DE004C88BF /* VehicleTrackerUITests */,
+				D6FAB59A228175DD004C88BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FAB59A228175DD004C88BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB599228175DD004C88BF /* VehicleTracker.app */,
+				D6FAB5B1228175DE004C88BF /* VehicleTrackerTests.xctest */,
+				D6FAB5BC228175DE004C88BF /* VehicleTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FAB59B228175DD004C88BF /* VehicleTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB648228176D9004C88BF /* AppDelegate.h */,
+				D6FAB649228176D9004C88BF /* AppDelegate.m */,
+				D6FAB641228176A9004C88BF /* Ship Tracker */,
+				D6FAB6372281768A004C88BF /* Misc */,
+				D6FAB62622817663004C88BF /* iBeacon */,
+				D6FAB61F22817652004C88BF /* Data */,
+				D6FAB61522817630004C88BF /* Tracker VC */,
+				D6FAB61122817619004C88BF /* API */,
+				D6FAB5A7228175DE004C88BF /* LaunchScreen.storyboard */,
+				D6FAB5CF228175F7004C88BF /* Images.xcassets */,
+				D6FAB5CE228175F7004C88BF /* Main.storyboard */,
+				D6FAB5AA228175DE004C88BF /* Info.plist */,
+				D6FAB5AB228175DE004C88BF /* main.m */,
+			);
+			path = VehicleTracker;
+			sourceTree = "<group>";
+		};
+		D6FAB5B4228175DE004C88BF /* VehicleTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB5B5228175DE004C88BF /* VehicleTrackerTests.m */,
+				D6FAB5B7228175DE004C88BF /* Info.plist */,
+			);
+			path = VehicleTrackerTests;
+			sourceTree = "<group>";
+		};
+		D6FAB5BF228175DE004C88BF /* VehicleTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB5C0228175DE004C88BF /* VehicleTrackerUITests.m */,
+				D6FAB5C2228175DE004C88BF /* Info.plist */,
+			);
+			path = VehicleTrackerUITests;
+			sourceTree = "<group>";
+		};
+		D6FAB61122817619004C88BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB61222817628004C88BF /* GetServices.h */,
+				D6FAB61322817628004C88BF /* GetServices.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D6FAB61522817630004C88BF /* Tracker VC */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB61822817641004C88BF /* DriverController.h */,
+				D6FAB61722817641004C88BF /* DriverController.m */,
+				D6FAB61B22817641004C88BF /* PassengerController.h */,
+				D6FAB61922817641004C88BF /* PassengerController.m */,
+				D6FAB61622817641004C88BF /* VehicleTracker.h */,
+				D6FAB61A22817641004C88BF /* VehicleTracker.m */,
+			);
+			path = "Tracker VC";
+			sourceTree = "<group>";
+		};
+		D6FAB61F22817652004C88BF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB6232281765D004C88BF /* DataSet.h */,
+				D6FAB6222281765D004C88BF /* DataSet.m */,
+				D6FAB6212281765D004C88BF /* DataManager.h */,
+				D6FAB6202281765D004C88BF /* DataManager.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6FAB62622817663004C88BF /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB63322817677004C88BF /* Beacon Item */,
+				D6FAB62722817671004C88BF /* BeaconController.h */,
+				D6FAB62A22817671004C88BF /* BeaconController.m */,
+				D6FAB62822817671004C88BF /* BeaconItemTableViewCell.h */,
+				D6FAB62D22817672004C88BF /* BeaconItemTableViewCell.m */,
+				D6FAB62C22817671004C88BF /* BeconItemAddViewController.h */,
+				D6FAB62E22817672004C88BF /* BeconItemAddViewController.m */,
+				D6FAB62B22817671004C88BF /* LastFiftyViewController.h */,
+				D6FAB62922817671004C88BF /* LastFiftyViewController.m */,
+			);
+			path = iBeacon;
+			sourceTree = "<group>";
+		};
+		D6FAB63322817677004C88BF /* Beacon Item */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB63422817685004C88BF /* BeaconItem.h */,
+				D6FAB63522817685004C88BF /* BeaconItem.m */,
+			);
+			path = "Beacon Item";
+			sourceTree = "<group>";
+		};
+		D6FAB6372281768A004C88BF /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB63A22817699004C88BF /* CheckInternetConnection.h */,
+				D6FAB63822817699004C88BF /* CheckInternetConnection.m */,
+				D6FAB63C22817699004C88BF /* Settings.h */,
+				D6FAB63922817699004C88BF /* Settings.m */,
+				D6FAB63B22817699004C88BF /* ShowAlert.h */,
+				D6FAB63D22817699004C88BF /* ShowAlert.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		D6FAB641228176A9004C88BF /* Ship Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB643228176B2004C88BF /* Annotation.h */,
+				D6FAB644228176B2004C88BF /* Annotation.m */,
+				D6FAB642228176B2004C88BF /* ShipTrackerController.h */,
+				D6FAB645228176B2004C88BF /* ShipTrackerController.m */,
+			);
+			path = "Ship Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FAB598228175DD004C88BF /* VehicleTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB5C5228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTracker" */;
+			buildPhases = (
+				D6FAB595228175DD004C88BF /* Sources */,
+				D6FAB596228175DD004C88BF /* Frameworks */,
+				D6FAB597228175DD004C88BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VehicleTracker;
+			productName = VehicleTracker;
+			productReference = D6FAB599228175DD004C88BF /* VehicleTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FAB5B0228175DE004C88BF /* VehicleTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB5C8228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTrackerTests" */;
+			buildPhases = (
+				D6FAB5AD228175DE004C88BF /* Sources */,
+				D6FAB5AE228175DE004C88BF /* Frameworks */,
+				D6FAB5AF228175DE004C88BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAB5B3228175DE004C88BF /* PBXTargetDependency */,
+			);
+			name = VehicleTrackerTests;
+			productName = VehicleTrackerTests;
+			productReference = D6FAB5B1228175DE004C88BF /* VehicleTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FAB5BB228175DE004C88BF /* VehicleTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB5CB228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTrackerUITests" */;
+			buildPhases = (
+				D6FAB5B8228175DE004C88BF /* Sources */,
+				D6FAB5B9228175DE004C88BF /* Frameworks */,
+				D6FAB5BA228175DE004C88BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAB5BE228175DE004C88BF /* PBXTargetDependency */,
+			);
+			name = VehicleTrackerUITests;
+			productName = VehicleTrackerUITests;
+			productReference = D6FAB5BC228175DE004C88BF /* VehicleTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FAB591228175DD004C88BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MobioApp Limited";
+				TargetAttributes = {
+					D6FAB598228175DD004C88BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D6FAB5B0228175DE004C88BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D6FAB598228175DD004C88BF;
+					};
+					D6FAB5BB228175DE004C88BF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D6FAB598228175DD004C88BF;
+					};
+				};
+			};
+			buildConfigurationList = D6FAB594228175DD004C88BF /* Build configuration list for PBXProject "VehicleTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FAB590228175DD004C88BF;
+			productRefGroup = D6FAB59A228175DD004C88BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FAB598228175DD004C88BF /* VehicleTracker */,
+				D6FAB5B0228175DE004C88BF /* VehicleTrackerTests */,
+				D6FAB5BB228175DE004C88BF /* VehicleTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FAB597228175DD004C88BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB5D1228175F8004C88BF /* Images.xcassets in Resources */,
+				D6FAB5A9228175DE004C88BF /* LaunchScreen.storyboard in Resources */,
+				D6FAB5D0228175F8004C88BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5AF228175DE004C88BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5BA228175DE004C88BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FAB595228175DD004C88BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB61422817628004C88BF /* GetServices.m in Sources */,
+				D6FAB62F22817672004C88BF /* LastFiftyViewController.m in Sources */,
+				D6FAB64A228176D9004C88BF /* AppDelegate.m in Sources */,
+				D6FAB646228176B2004C88BF /* Annotation.m in Sources */,
+				D6FAB63F22817699004C88BF /* Settings.m in Sources */,
+				D6FAB61E22817641004C88BF /* VehicleTracker.m in Sources */,
+				D6FAB63022817672004C88BF /* BeaconController.m in Sources */,
+				D6FAB647228176B2004C88BF /* ShipTrackerController.m in Sources */,
+				D6FAB6252281765D004C88BF /* DataSet.m in Sources */,
+				D6FAB63622817685004C88BF /* BeaconItem.m in Sources */,
+				D6FAB63222817672004C88BF /* BeconItemAddViewController.m in Sources */,
+				D6FAB63E22817699004C88BF /* CheckInternetConnection.m in Sources */,
+				D6FAB6242281765D004C88BF /* DataManager.m in Sources */,
+				D6FAB61D22817641004C88BF /* PassengerController.m in Sources */,
+				D6FAB63122817672004C88BF /* BeaconItemTableViewCell.m in Sources */,
+				D6FAB61C22817641004C88BF /* DriverController.m in Sources */,
+				D6FAB5AC228175DE004C88BF /* main.m in Sources */,
+				D6FAB64022817699004C88BF /* ShowAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5AD228175DE004C88BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB5B6228175DE004C88BF /* VehicleTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB5B8228175DE004C88BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB5C1228175DE004C88BF /* VehicleTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FAB5B3228175DE004C88BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAB598228175DD004C88BF /* VehicleTracker */;
+			targetProxy = D6FAB5B2228175DE004C88BF /* PBXContainerItemProxy */;
+		};
+		D6FAB5BE228175DE004C88BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAB598228175DD004C88BF /* VehicleTracker */;
+			targetProxy = D6FAB5BD228175DE004C88BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6FAB5A7228175DE004C88BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6FAB5A8228175DE004C88BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6FAB5C3228175DE004C88BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6FAB5C4228175DE004C88BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6FAB5C6228175DE004C88BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6FAB5C7228175DE004C88BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6FAB5C9228175DE004C88BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleTracker.app/VehicleTracker";
+			};
+			name = Debug;
+		};
+		D6FAB5CA228175DE004C88BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleTracker.app/VehicleTracker";
+			};
+			name = Release;
+		};
+		D6FAB5CC228175DE004C88BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VehicleTracker;
+			};
+			name = Debug;
+		};
+		D6FAB5CD228175DE004C88BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = VehicleTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.VehicleTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VehicleTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FAB594228175DD004C88BF /* Build configuration list for PBXProject "VehicleTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB5C3228175DE004C88BF /* Debug */,
+				D6FAB5C4228175DE004C88BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAB5C5228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB5C6228175DE004C88BF /* Debug */,
+				D6FAB5C7228175DE004C88BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAB5C8228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB5C9228175DE004C88BF /* Debug */,
+				D6FAB5CA228175DE004C88BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAB5CB228175DE004C88BF /* Build configuration list for PBXNativeTarget "VehicleTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB5CC228175DE004C88BF /* Debug */,
+				D6FAB5CD228175DE004C88BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FAB591228175DD004C88BF /* Project object */;
+}
