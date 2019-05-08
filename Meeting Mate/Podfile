@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Meeting Mate' do
+
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'AFNetworking', '~> 3.0'
+pod 'PSPDFKit', podspec: 'https://customers.pspdfkit.com/cocoapods/aMQTVa39_eBoP7zFdz3OoPHSRwht0kiXY0-Fdaw0L8PuTPBjYTdQ09WGHOASlVfQBqwL4wNLg2jGmdmQ5u-huQ/latest.podspec'
+
+end

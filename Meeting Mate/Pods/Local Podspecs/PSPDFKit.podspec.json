@@ -1,0 +1,60 @@
+{
+  "name": "PSPDFKit",
+  "version": "6.2.1",
+  "homepage": "https://pspdfkit.com",
+  "license": {
+    "type": "Commercial",
+    "file": "PSPDFKit.framework/PSPDFKit-LICENSE"
+  },
+  "authors": {
+    "PSPDFKit GmbH": "support@pspdfkit.com"
+  },
+  "summary": "The Leading PDF Framework for iOS, Android and the Web.",
+  "description": "The Leading PDF Framework for iOS, Android and the Web.",
+  "screenshots": "https://pspdfkit.com/images/devices/ipad-air-hero-07c554d5.png",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://customers.pspdfkit.com/cocoapods/aMQTVa39_eBoP7zFdz3OoPHSRwht0kiXY0-Fdaw0L8PuTPBjYTdQ09WGHOASlVfQBqwL4wNLg2jGmdmQ5u-huQ/6.2.1.zip"
+  },
+  "preserve_paths": "PSPDFKit.framework",
+  "public_header_files": "PSPDFKit.framework/Headers/*.h",
+  "vendored_frameworks": "PSPDFKit.framework",
+  "libraries": [
+    "z",
+    "sqlite3",
+    "xml2",
+    "c++"
+  ],
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/PSPDFKit/**\"",
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "frameworks": [
+    "QuartzCore",
+    "CoreText",
+    "CoreMedia",
+    "MediaPlayer",
+    "AVFoundation",
+    "ImageIO",
+    "MessageUI",
+    "CoreGraphics",
+    "Foundation",
+    "CFNetwork",
+    "MobileCoreServices",
+    "SystemConfiguration",
+    "AssetsLibrary",
+    "Security",
+    "UIKit",
+    "AudioToolbox",
+    "QuickLook",
+    "CoreTelephony",
+    "Accelerate",
+    "JavaScriptCore",
+    "GLKit",
+    "OpenGLES",
+    "CoreImage"
+  ],
+  "requires_arc": true
+}

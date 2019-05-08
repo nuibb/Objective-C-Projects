@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - PSPDFKit (6.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - PSPDFKit (from `https://customers.pspdfkit.com/cocoapods/aMQTVa39_eBoP7zFdz3OoPHSRwht0kiXY0-Fdaw0L8PuTPBjYTdQ09WGHOASlVfQBqwL4wNLg2jGmdmQ5u-huQ/latest.podspec`)
+
+EXTERNAL SOURCES:
+  PSPDFKit:
+    :podspec: https://customers.pspdfkit.com/cocoapods/aMQTVa39_eBoP7zFdz3OoPHSRwht0kiXY0-Fdaw0L8PuTPBjYTdQ09WGHOASlVfQBqwL4wNLg2jGmdmQ5u-huQ/latest.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  PSPDFKit: 35c66597e86c390859dfc19307ebc184f966f8df
+
+PODFILE CHECKSUM: b966bb31c709f3bd973389da19d3c6a71e6917d4
+
+COCOAPODS: 1.0.1
